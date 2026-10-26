@@ -27,11 +27,8 @@
 #include <PGSuperAll.h>
 #include <PsgLib\Keys.h>
 
-#if defined _NOGRID
-#include <NoGrid.h>
-#else
-#include "SharedCTrls\MultiSelectGrid.h" 
-#endif
+// local build patch: CMultiSelectGrid is needed with or without ObjectiveGrid
+#include "SharedCTrls\MultiSelectGrid.h"
 
 // Container for spans and girders on/off settings
 typedef std::vector<bool> GirderOnVector;

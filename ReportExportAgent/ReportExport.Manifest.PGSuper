@@ -1,0 +1,10 @@
+{
+    "Component": {
+        "Name": "PGSuper Report Export Agent",
+        "CLSID": "{880751F9-0928-4062-824A-D70D12C49CBF}",
+        "dll": "ReportExportAgent.dll",
+        "Categories": {
+            "CATID": "{4B5AD09A-E616-468E-8F84-4F9D68E7B6CA}"
+        }
+    }
+}

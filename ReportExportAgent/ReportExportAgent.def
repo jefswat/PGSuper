@@ -1,0 +1,5 @@
+; ReportExportAgent.def : Declares the module parameters.
+
+LIBRARY      "ReportExportAgent.DLL"
+
+EXPORTS
